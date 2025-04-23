@@ -7,4 +7,12 @@ http://maven.apache.org/maven-v4_0_0.xsd">
 <groupId>com.J1ggy</groupId> 
 <artifactId>Maven-Tutorial</artifactId> 
 <version>1.0</version> 
+<dependancies>
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.10.2</version>
+    <scope>test</scope>
+</dependency>
+</dependancies>
 </project> 
